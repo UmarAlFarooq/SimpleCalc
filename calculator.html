@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>
+		Simple Calculator App
+	</title>
+	<link rel="stylesheet" type="text/css" href="Calculator.css" />
+	<script src="Calculator.js"></script>
+</head>
+<body>
+
+<div class="wrapperMain">
+	<div class="screen">
+		<input type="button" id="screenOperation" value="" class="screenBoxes" />
+		<input type="button" id="screenMemory" value="" class="screenBoxes" />
+		<input type="button" id="screenText" value="0" class="screenBoxes" />
+	</div>
+	<div class="top2">
+			<button onclick="op('Clear')" class="twoCol btnClear">C</button>
+			<button onclick="op('Back')" class="btnBack"><span>&#9003;</span></button>
+	</div>
+	<div class="numberButtons">
+		<button onclick="numInput(1)">1</button>		
+		<button onclick="numInput(2)">2</button>
+		<button onclick="numInput(3)">3</button>
+		<button onclick="numInput(4)">4</button>		
+		<button onclick="numInput(5)">5</button>
+		<button onclick="numInput(6)">6</button>			
+		<button onclick="numInput(7)">7</button>		
+		<button onclick="numInput(8)">8</button>
+		<button onclick="numInput(9)">9</button>
+		<button onclick="numInput(0)" class="twoCol">0</button>			
+		<button onclick="op('.')">.</button>		
+		<button onclick="op('=')" class="twoCol">=</button>
+		<button onclick="op('*-1')">-/+</button>
+	</div>
+	<div class="operations">
+		<button onclick="op('/')">&divide;</button>
+		<button onclick="op('*')">x</button>
+		<button onclick="op('-')">-</button>
+		<button onclick="op('+')" class="twoRow">+</button>
+	</div>
+</div>	
+</body>
+</html>
+
+
+

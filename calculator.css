@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Digital-7;
+    src: url(digital-7.ttf);
+}
+*:focus{
+	outline: none;
+}
+.wrapperMain{
+    border: 4px solid gray;
+    width: 323px;
+    height: 370px;
+    margin: auto;
+    border-radius: 5%;
+    background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); 
+    padding-left: 15px;
+	box-shadow: 3px 5px 5px black;
+}
+
+.screen{
+    width: 282px;
+    height: 76px;
+    margin-top: 15px;
+    margin-left: 3px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    font-size: 36px;
+    text-align: right;
+	background: white;
+	position: relative;
+}
+.screen::before{
+    background: url(http://www.seosunshine.com/Images/logo-seoshunshine.png);
+    background-size: cover;
+    width: 100%;
+    height: 83px;
+    opacity: 0.2;
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.screenBoxes{
+    float: right;
+    display: block;
+    border: none;
+    text-align: right;
+	background: none;
+	opacity: 1;
+	font-family: Digital-7;
+}
+#screenMemory{
+	font-size: 15px;
+	color: gray;
+	width: 90%;
+}
+#screenOperation{
+	font-size: 15px;
+	color: gray;
+}
+#screenText{
+	font-size: 42px;
+	color: orange;
+    width: 100%;
+}
+.btnClear{
+	font-size: 24px;
+}
+.btnBack{
+    width: 138px;
+}
+.btnBack span{
+    font-size: 28px;
+    font-weight: bold;
+    width: 138px;
+    position: relative;
+    line-height: 17px;
+}
+button{
+	font-size: 20px;
+	background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    color: Black;
+    border: 2px solid gray;
+    height: 33px;
+    width: 60px;
+    display: inline-block;
+    margin: 4px;
+    text-align: center;
+    font-family: arial;
+    border-radius: 5px;
+    box-shadow: 0px 5px 1px gray;
+}
+button:hover{
+	text-shadow: 0 0 10px; 
+}
+button:active{
+	position: relative;
+	top: 3px;
+	box-shadow: none;
+	font-weight: bold;
+}
+.operations{
+	float:right;
+	width: 25%;
+}
+.numberButtons{
+	float:left;
+	width: 75%;
+	margin-bottom: 9px;
+}
+.numberButtons button{
+	width: 69px;
+}
+
+.twoCol{
+	width: 150px !important;
+}
+.twoRow{
+	height: 76px !important;
+}
+.madein{
+    width: 55%;
+    height: 18px;
+    margin-top: 16px;
+    text-align: center;
+    vertical-align: bottom;
+    background: #7FBF7F;
+    font-size: 10px;
+    font-family: arial;
+    clear: both;
+    border-radius: 18px;
+    opacity: 0.95;
+    padding-top: 5px;
+    margin: auto;
+}
+.crescent{
+	color: green;
+}
